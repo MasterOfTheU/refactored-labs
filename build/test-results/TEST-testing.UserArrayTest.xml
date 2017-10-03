@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testing.UserArrayTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-10-03T19:36:42" hostname="brain" time="0.004">
+  <properties/>
+  <testcase name="geometricMeanFailed" classname="testing.UserArrayTest" time="0.0"/>
+  <testcase name="checkNullArray" classname="testing.UserArrayTest" time="0.0"/>
+  <testcase name="largestByModule" classname="testing.UserArrayTest" time="0.002"/>
+  <testcase name="largestByModuleFailed" classname="testing.UserArrayTest" time="0.0"/>
+  <testcase name="findModuleMinimized" classname="testing.UserArrayTest" time="0.0"/>
+  <testcase name="pairedListNotNull" classname="testing.UserArrayTest" time="0.001"/>
+  <testcase name="geometricMean" classname="testing.UserArrayTest" time="0.0"/>
+  <testcase name="arithmeticMean" classname="testing.UserArrayTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
