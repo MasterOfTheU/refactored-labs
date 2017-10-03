@@ -69,9 +69,9 @@ public class Main {
     //region workWithArray
     private static void workWithArray() {
         //User array for filling
-        ArrayList<Integer> userArray = new ArrayList<>();
+        ArrayList<Integer> userArray = new ArrayList<Integer>();
         //Array of paired elements
-        ArrayList<Integer> pairedArray = new ArrayList<>();
+        ArrayList<Integer> pairedArray = new ArrayList<Integer>();
         System.out.println("Enter the number of array elements: ");
         int userArrayLength = checkInput();
         fillArray(userArrayLength, userArray, pairedArray);

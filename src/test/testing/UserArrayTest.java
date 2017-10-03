@@ -42,7 +42,7 @@ public class UserArrayTest {
 
     //region fillPairedArray
     private List<Integer> fillPairedArray(List<Integer> testList) {
-        List<Integer> pairedList = new ArrayList<>();
+        List<Integer> pairedList = new ArrayList<Integer>();
         for (int i = 0; i < testList.size(); i++) {
             testList.add(Main.checkInput());
             if (testList.get(i) % 2 == 0) {
@@ -55,7 +55,7 @@ public class UserArrayTest {
 
     @Before
     public void init() {
-        originalArray = new ArrayList<>(150);
+        originalArray = new ArrayList<Integer>(150);
         fillOriginalArray(originalArray);
     }
 
@@ -66,7 +66,7 @@ public class UserArrayTest {
 
     @Test
     public void geometricMean() {
-        List<Integer> testList = new ArrayList<>(Arrays.asList(2, 4));
+        List<Integer> testList = new ArrayList<Integer>(Arrays.asList(2, 4));
         int actualResult = UserArray.geometricMean((ArrayList<Integer>) testList);
         int expected = 2;
         Assert.assertEquals(expected, actualResult);
@@ -74,20 +74,20 @@ public class UserArrayTest {
 
     @Test
     public void geometricMeanFailed() {
-        ArrayList<Integer> testList = new ArrayList<>();
+        ArrayList<Integer> testList = new ArrayList<Integer>();
         Assert.assertFalse(testList.size() > 0);
     }
 
     @Test
     public void pairedListNotNull() {
-        List<Integer> testList = new ArrayList<>(5);
+        List<Integer> testList = new ArrayList<Integer>(5);
         List<Integer> result = fillPairedArray(testList);
         Assert.assertNotNull(result);
     }
 
     @Test
     public void largestByModule() {
-        List<Integer> testList = new ArrayList<>(Arrays.asList(2, 0, -566, 11));
+        List<Integer> testList = new ArrayList<Integer>(Arrays.asList(2, 0, -566, 11));
         int actualResult = UserArray.largestByModule((ArrayList<Integer>) testList);
         int expected = 566;
         Assert.assertEquals(expected, actualResult);
@@ -95,7 +95,7 @@ public class UserArrayTest {
 
     @Test
     public void largestByModuleFailed() {
-        List<Integer> testList = new ArrayList<>(Arrays.asList(-9999, 66, 23, 0, 1));
+        List<Integer> testList = new ArrayList<Integer>(Arrays.asList(-9999, 66, 23, 0, 1));
         int actualResult;
         int expected = -9999;
         actualResult = UserArray.largestByModule((ArrayList<Integer>) testList);
@@ -105,7 +105,7 @@ public class UserArrayTest {
 
     @Test
     public void arithmeticMean() {
-        List<Integer> testList = new ArrayList<>(Arrays.asList(1, 10, 4, 5));
+        List<Integer> testList = new ArrayList<Integer>(Arrays.asList(1, 10, 4, 5));
         int actualResult = UserArray.arithmeticMean((ArrayList<Integer>) testList);
         int expected = 2;
         Assert.assertEquals(expected, actualResult);
@@ -113,7 +113,7 @@ public class UserArrayTest {
 
     @Test
     public void findModuleMinimized() {
-        List<Integer> testList = new ArrayList<>(Arrays.asList(2, 0, -566, 11));
+        List<Integer> testList = new ArrayList<Integer>(Arrays.asList(2, 0, -566, 11));
         int actualResult = UserArray.findModuleMinimized((ArrayList<Integer>) testList);
         int expected = 0;
         Assert.assertEquals(expected, actualResult);

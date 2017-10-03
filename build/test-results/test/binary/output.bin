@@ -1,0 +1,42 @@
+The start matrix is: 
+0 1 1 3 1 
+1 3 0 4 0 
+3 2 2 0 0 
+3 2 4 2 4 
+0 4 1 1 4 
+OddEvenSort has executed.
+7Used memory in bytes: 2979640; in megabytes: 2.841606 
+.The runtime of bubble sort algorithm is 68 ms
+
+CombSort has executed.
+7Used memory in bytes: 1930464; in megabytes: 1.841034 
+,The runtime of comb sort algorithm is 71 ms
+
+JavaUtilSort has executed.
+7Used memory in bytes: 2937720; in megabytes: 2.801628 
+2The runtime of dual-pivot sort algorithm is 67 ms
+
+	CombSort has executed.
+	7Used memory in bytes: 1930448; in megabytes: 1.841019 
+	,The runtime of comb sort algorithm is 64 ms
+	
+
+SelectionSort has executed.
+
+7Used memory in bytes: 1932704; in megabytes: 1.843170 
+
+1The runtime of selection sort algorithm is 31 ms
+
+
+QuickSort has executed.
+7Used memory in bytes: 1934408; in megabytes: 1.844795 
+-The runtime of quick sort algorithm is 18 ms
+
+BubbleSort has executed.
+7Used memory in bytes: 1936832; in megabytes: 1.847107 
+.The runtime of bubble sort algorithm is 35 ms
+
+CycleSort has executed.
+7Used memory in bytes: 1938568; in megabytes: 1.848763 
+-The runtime of cycle sort algorithm is 34 ms
+

@@ -32,7 +32,7 @@ public class CustomMatrix {
         System.out.println("The obtained square matrix is: ");
 
         // Array for check of elements' value
-        ArrayList<Integer> diagonal = new ArrayList<>();
+        ArrayList<Integer> diagonal = new ArrayList<Integer>();
         for (int i = 0; i < matrixOrder; i++) {
             for (int j = 0; j < matrixOrder; j++) {
                 if (i == j) {

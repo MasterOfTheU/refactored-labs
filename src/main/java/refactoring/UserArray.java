@@ -50,7 +50,7 @@ public class UserArray {
                 sum = 0,
                 result;
 
-        ArrayList<Integer> minElements = new ArrayList<>();
+        ArrayList<Integer> minElements = new ArrayList<Integer>();
 
         //Finding the mean value of start array
         for (int i = 0; i < array.size(); i++) {

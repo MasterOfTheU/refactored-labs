@@ -2,10 +2,10 @@ group 'mpt.org'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'application'
 apply plugin: 'jacoco'
 
 sourceCompatibility = 1.8
-targetCompatibility = 1.8
 
 sourceSets.test.java.srcDirs = ["src/test"]
 
@@ -26,7 +26,12 @@ jar {
 }
 
 task codeCoverageReport(type: JacocoReport) {
-    executionData fileTree(project.rootDir.absolutePath).include("**/build/jacoco/*.exec")
+    def coverageSourceDirs = [
+            'src/main/java',
+    ]
+    executionData = fileTree(project.rootDir.absolutePath).include("**/build/jacoco/*.exec")
+    classDirectories = fileTree(dir: "${project.buildDir}/classes/java/main")
+    sourceDirectories = files(coverageSourceDirs)
 
     subprojects.each {
         sourceSets it.sourceSets.main
@@ -51,6 +56,8 @@ jacocoTestReport {
     }
 }
 
+check.dependsOn jacocoTestReport
+
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.14'
+    gradleVersion = '4.1'
 }
