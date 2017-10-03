@@ -1,4 +1,4 @@
-package java.methodstesting;
+package testing;
 
 import org.junit.Assert;
 import org.junit.Test;
