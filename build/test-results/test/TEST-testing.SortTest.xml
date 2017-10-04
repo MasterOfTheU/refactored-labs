@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testing.SortTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-10-03T20:19:35" hostname="brain" time="0.402">
+<testsuite name="testing.SortTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2017-10-04T08:36:00" hostname="brain" time="0.229">
   <properties/>
   <testcase name="oddEvenSortTest" classname="testing.SortTest" time="0.07"/>
-  <testcase name="javaUtilSort" classname="testing.SortTest" time="0.141"/>
-  <testcase name="combSort" classname="testing.SortTest" time="0.064"/>
-  <testcase name="selectionSort" classname="testing.SortTest" time="0.032"/>
-  <testcase name="quickSort" classname="testing.SortTest" time="0.021"/>
-  <testcase name="bubbleSortTest" classname="testing.SortTest" time="0.036"/>
-  <testcase name="cycleSortTest" classname="testing.SortTest" time="0.035"/>
+  <testcase name="javaUtilSort" classname="testing.SortTest" time="0.06"/>
+  <testcase name="combSort" classname="testing.SortTest" time="0.017"/>
+  <testcase name="selectionSort" classname="testing.SortTest" time="0.021"/>
+  <testcase name="quickSort" classname="testing.SortTest" time="0.023"/>
+  <testcase name="bubbleSortTest" classname="testing.SortTest" time="0.017"/>
+  <testcase name="cycleSortTest" classname="testing.SortTest" time="0.019"/>
   <system-out><![CDATA[OddEvenSort has executed.
-Used memory in bytes: 2979640; in megabytes: 2.841606 
-The runtime of bubble sort algorithm is 68 ms
+Used memory in bytes: 1904400; in megabytes: 1.816177 
+The runtime of bubble sort algorithm is 69 ms
 
 CombSort has executed.
-Used memory in bytes: 1930464; in megabytes: 1.841034 
-The runtime of comb sort algorithm is 71 ms
+Used memory in bytes: 1906176; in megabytes: 1.817871 
+The runtime of comb sort algorithm is 29 ms
 
 JavaUtilSort has executed.
-Used memory in bytes: 2937720; in megabytes: 2.801628 
-The runtime of dual-pivot sort algorithm is 67 ms
+Used memory in bytes: 1905432; in megabytes: 1.817162 
+The runtime of dual-pivot sort algorithm is 29 ms
 
 CombSort has executed.
-Used memory in bytes: 1930448; in megabytes: 1.841019 
-The runtime of comb sort algorithm is 64 ms
+Used memory in bytes: 1906192; in megabytes: 1.817886 
+The runtime of comb sort algorithm is 16 ms
 
 SelectionSort has executed.
-Used memory in bytes: 1932704; in megabytes: 1.843170 
-The runtime of selection sort algorithm is 31 ms
+Used memory in bytes: 1907560; in megabytes: 1.819191 
+The runtime of selection sort algorithm is 20 ms
 
 QuickSort has executed.
-Used memory in bytes: 1934408; in megabytes: 1.844795 
-The runtime of quick sort algorithm is 18 ms
+Used memory in bytes: 1908280; in megabytes: 1.819878 
+The runtime of quick sort algorithm is 21 ms
 
 BubbleSort has executed.
-Used memory in bytes: 1936832; in megabytes: 1.847107 
-The runtime of bubble sort algorithm is 35 ms
+Used memory in bytes: 1909072; in megabytes: 1.820633 
+The runtime of bubble sort algorithm is 16 ms
 
 CycleSort has executed.
-Used memory in bytes: 1938568; in megabytes: 1.848763 
-The runtime of cycle sort algorithm is 34 ms
+Used memory in bytes: 2917312; in megabytes: 2.782166 
+The runtime of cycle sort algorithm is 18 ms
 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
