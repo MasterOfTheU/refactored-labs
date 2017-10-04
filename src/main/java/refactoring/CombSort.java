@@ -2,7 +2,7 @@ package refactoring;
 
 public class CombSort implements Sort{
 
-    public void sort(int[] array) {
+    public boolean sort(int[] array) {
         long startTime = System.currentTimeMillis();
         String methodName = CombSort.class.getSimpleName();
 
@@ -33,5 +33,6 @@ public class CombSort implements Sort{
         long elapsedTime = endTime - startTime;
         System.out.printf("The runtime of comb sort algorithm is %d %s\n", elapsedTime, "ms");
         System.out.println();
+        return true;
     }
 }

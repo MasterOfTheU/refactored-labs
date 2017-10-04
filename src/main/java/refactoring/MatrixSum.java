@@ -27,7 +27,7 @@ public class MatrixSum {
      * @param matrix - Generates matrix of order <b>n</b>
      */
     //region calculateSum
-    protected static void calculateSum(int n, int[][] matrix) {
+    public static boolean calculateSum(int n, int[][] matrix) {
 
         int sumMainDiagonal = 0,
                 sumAboveDiagonal = 0,
@@ -59,6 +59,7 @@ public class MatrixSum {
             }
         }
         System.out.println("The sum below main diagonal is: " + sumBelowDiagonal);
+        return true;
     }
     //endregion
 }

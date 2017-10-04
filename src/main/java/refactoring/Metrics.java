@@ -1,9 +1,6 @@
 package refactoring;
 
 public class Metrics {
-
-    //Getting the name of executed method through className
-
     /**
      * Prints the name of recently executed method.
      * @param methodName - Gets the name of the executed sorting algorithm from the class name.
@@ -23,11 +20,12 @@ public class Metrics {
     /**
      * Gathers metrics of sorting algorithms.
      */
-    protected static void gatherPerformance() {
+    public static boolean gatherPerformance() {
         Runtime runtime = Runtime.getRuntime();
         runtime.gc();
         long memory = runtime.totalMemory() - runtime.freeMemory();
         System.out.printf("Used memory in bytes: %d; in megabytes: %f \n", memory, bytesToMegabytes(memory));
+        return true;
     }
 
 }

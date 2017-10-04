@@ -2,7 +2,7 @@ package refactoring;
 
 public class OddEvenSort implements Sort {
 
-    public void sort(int[] array) {
+    public boolean sort(int[] array) {
         long startTime = System.currentTimeMillis();
         String methodName = OddEvenSort.class.getSimpleName();
         boolean isSorted = false;
@@ -38,5 +38,6 @@ public class OddEvenSort implements Sort {
         long elapsedTime = endTime - startTime;
         System.out.printf("The runtime of bubble sort algorithm is %d %s\n", elapsedTime, "ms");
         System.out.println();
+        return true;
     }
 }

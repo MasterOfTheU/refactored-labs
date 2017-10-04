@@ -3,7 +3,7 @@ package refactoring;
 import java.util.Random;
 
 public class QuickSort implements Sort {
-    public void sort(int[] array) {
+    public boolean sort(int[] array) {
         long startTime = System.currentTimeMillis();
         String methodName = QuickSort.class.getSimpleName();
 
@@ -39,5 +39,6 @@ public class QuickSort implements Sort {
         long elapsedTime = endTime - startTime;
         System.out.printf("The runtime of quick sort algorithm is %d %s\n", elapsedTime, "ms");
         System.out.println();
+        return true;
     }
 }

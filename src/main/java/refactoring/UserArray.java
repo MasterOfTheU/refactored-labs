@@ -15,7 +15,7 @@ public class UserArray {
     //endregion
 
     //region maximumPairedItem
-    public static void maximumPairedItem(ArrayList<Integer> pArray) {
+    public static boolean maximumPairedItem(ArrayList<Integer> pArray) {
         int max = pArray.get(0);
         try {
             for (int i = 0; i < pArray.size(); i++) {
@@ -28,6 +28,7 @@ public class UserArray {
         catch (IndexOutOfBoundsException e) {
             System.out.printf("The array does not contain any paired numbers.\n");
         }
+        return true;
     }
     //endregion
 
@@ -93,7 +94,7 @@ public class UserArray {
     //endregion
 
     //region findSumInInterval
-    public static void findSumInInterval(ArrayList<Integer> array) {
+    public static boolean findSumInInterval(ArrayList<Integer> array) {
         int sum = 0, topBound = 9;
         try {
             for (int i = 0; i < topBound; i++) {
@@ -105,6 +106,7 @@ public class UserArray {
         catch (IndexOutOfBoundsException e) {
             System.out.printf("Cannot proceed the calculation of sum in the interval of [0;10]. The array does not contain this amount of elements.\n");
         }
+        return true;
     }
     //endregion
 }

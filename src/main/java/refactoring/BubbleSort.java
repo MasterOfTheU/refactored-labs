@@ -2,7 +2,7 @@ package refactoring;
 
 public class BubbleSort implements Sort {
 
-    public void sort(int[] array) {
+    public boolean sort(int[] array) {
         long startTime = System.currentTimeMillis();
         String methodName = BubbleSort.class.getSimpleName();
         int temp;
@@ -23,5 +23,6 @@ public class BubbleSort implements Sort {
         long elapsedTime = endTime - startTime;
         System.out.printf("The runtime of bubble sort algorithm is %d %s\n", elapsedTime, "ms");
         System.out.println();
+        return true;
     }
 }

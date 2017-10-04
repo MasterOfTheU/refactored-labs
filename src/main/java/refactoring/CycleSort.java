@@ -2,7 +2,7 @@ package refactoring;
 
 public class CycleSort implements Sort {
 
-    public void sort(int[] array) {
+    public boolean sort(int[] array) {
         long startTime = System.currentTimeMillis();
         String methodName = CycleSort.class.getSimpleName();
 
@@ -55,5 +55,6 @@ public class CycleSort implements Sort {
         long elapsedTime = endTime - startTime;
         System.out.printf("The runtime of cycle sort algorithm is %d %s\n", elapsedTime, "ms");
         System.out.println();
+        return true;
     }
 }

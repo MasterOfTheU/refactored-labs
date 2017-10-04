@@ -62,7 +62,11 @@ public class CustomMatrix {
         return newMatrix;
     }
 
-    static void printObtainedMatrix(int matrixOrder) {
+    static boolean printObtainedMatrix(int matrixOrder) {
         obtainNewMatrix(matrixOrder, createMatrix(matrixOrder));
+        if (matrixOrder != 0) {
+            return true;
+        }
+        else return false;
     }
 }

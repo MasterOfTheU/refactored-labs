@@ -2,7 +2,7 @@ package refactoring;
 
 public class SelectionSort implements Sort {
 
-    public void sort(int[] array) {
+    public boolean sort(int[] array) {
         long startTime = System.currentTimeMillis();
         String methodName = SelectionSort.class.getSimpleName();
 
@@ -16,5 +16,6 @@ public class SelectionSort implements Sort {
         long elapsedTime = endTime - startTime;
         System.out.printf("The runtime of selection sort algorithm is %d %s\n", elapsedTime, "ms");
         System.out.println();
+        return true;
     }
 }
