@@ -118,4 +118,18 @@ public class UserArrayTest {
         int expected = 0;
         Assert.assertEquals(expected, actualResult);
     }
+
+    @Test
+    public void findSumInInterval() {
+        List<Integer> testList = new ArrayList<Integer>(Arrays.asList(2, 0, -566, 11));
+        boolean result = UserArray.findSumInInterval((ArrayList<Integer>) testList);
+        Assert.assertTrue(result);
+    }
+
+    @Test
+    public void maximumPairedItem() {
+        List<Integer> testList = new ArrayList<Integer>(Arrays.asList(1, 1, 0, 4, 22, 3));
+        boolean result = UserArray.maximumPairedItem((ArrayList<Integer>) testList);
+        Assert.assertTrue(result);
+    }
 }
