@@ -2,8 +2,13 @@ package refactoring;
 
 public class Greeter {
 
-    public static boolean sayHello() {
-        System.out.println("Hello, world!\n");
-        return true;
+    String message;
+
+    public Greeter() {
+        message = "Hello, world!";
+    }
+
+    public String sayHello() {
+        return this.message;
     }
 }

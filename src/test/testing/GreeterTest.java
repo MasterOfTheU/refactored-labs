@@ -4,19 +4,20 @@ import org.junit.Assert;
 import org.junit.Test;
 import refactoring.Greeter;
 
-import static org.junit.Assert.*;
-
 public class GreeterTest {
-    boolean expected = Greeter.sayHello();
-
 
     @Test
     public void testSayHello() {
-        Assert.assertTrue(expected);
+        Greeter greeter = new Greeter();
+        String actualResult = greeter.sayHello();
+        String expected = "Hello, world!";
+        Assert.assertEquals(expected, actualResult);
     }
 
     @Test
     public void nullSayHello() {
-        assertNotNull(expected);
+        Greeter greeter = new Greeter();
+        String result = greeter.sayHello();
+        Assert.assertNotNull(result);
     }
 }
