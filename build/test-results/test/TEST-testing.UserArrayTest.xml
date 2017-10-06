@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testing.UserArrayTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-10-04T08:36:00" hostname="brain" time="0.011">
+<testsuite name="testing.UserArrayTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-10-06T13:41:24" hostname="brain" time="0.022">
   <properties/>
   <testcase name="geometricMeanFailed" classname="testing.UserArrayTest" time="0.0"/>
   <testcase name="checkNullArray" classname="testing.UserArrayTest" time="0.0"/>
-  <testcase name="largestByModule" classname="testing.UserArrayTest" time="0.003"/>
+  <testcase name="largestByModule" classname="testing.UserArrayTest" time="0.021"/>
   <testcase name="largestByModuleFailed" classname="testing.UserArrayTest" time="0.0"/>
   <testcase name="findModuleMinimized" classname="testing.UserArrayTest" time="0.0"/>
   <testcase name="findSumInInterval" classname="testing.UserArrayTest" time="0.001"/>
   <testcase name="pairedListNotNull" classname="testing.UserArrayTest" time="0.0"/>
   <testcase name="geometricMean" classname="testing.UserArrayTest" time="0.0"/>
-  <testcase name="maximumPairedItem" classname="testing.UserArrayTest" time="0.003"/>
+  <testcase name="maximumPairedItem" classname="testing.UserArrayTest" time="0.0"/>
   <testcase name="arithmeticMean" classname="testing.UserArrayTest" time="0.0"/>
   <system-out><![CDATA[Cannot proceed the calculation of sum in the interval of [0;10]. The array does not contain this amount of elements.
 THE MAXIMUM PAIRED ITEM IS: 22
