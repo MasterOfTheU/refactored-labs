@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testing.UserArrayTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-10-06T13:41:24" hostname="brain" time="0.022">
+<testsuite name="testing.UserArrayTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-10-06T14:05:02" hostname="brain" time="0.004">
   <properties/>
-  <testcase name="geometricMeanFailed" classname="testing.UserArrayTest" time="0.0"/>
+  <testcase name="geometricMeanFailed" classname="testing.UserArrayTest" time="0.001"/>
   <testcase name="checkNullArray" classname="testing.UserArrayTest" time="0.0"/>
-  <testcase name="largestByModule" classname="testing.UserArrayTest" time="0.021"/>
+  <testcase name="largestByModule" classname="testing.UserArrayTest" time="0.002"/>
   <testcase name="largestByModuleFailed" classname="testing.UserArrayTest" time="0.0"/>
   <testcase name="findModuleMinimized" classname="testing.UserArrayTest" time="0.0"/>
   <testcase name="findSumInInterval" classname="testing.UserArrayTest" time="0.001"/>
