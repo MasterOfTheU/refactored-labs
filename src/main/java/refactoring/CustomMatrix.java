@@ -4,7 +4,7 @@ import java.util.*;
 
 public class CustomMatrix {
 
-    private static int[][] createMatrix(int matrixOrder) {
+    public static int[][] createMatrix(int matrixOrder) {
         int[][] squareMatrix = new int[matrixOrder][matrixOrder];
 
         Random random = new Random();
@@ -27,7 +27,7 @@ public class CustomMatrix {
      * if the corresponding element of the output matrix is greater than an element, located in its line on the main diagonal,
      * otherwise is equal to zero.
      */
-    private static int[][] obtainNewMatrix(int matrixOrder, int[][] squareMatrix) {
+    public static int[][] obtainNewMatrix(int matrixOrder, int[][] squareMatrix) {
         int[][] newMatrix = new int[matrixOrder][matrixOrder];
         System.out.println("The obtained square matrix is: ");
 
@@ -62,7 +62,7 @@ public class CustomMatrix {
         return newMatrix;
     }
 
-    static boolean printObtainedMatrix(int matrixOrder) {
+    public static boolean printObtainedMatrix(int matrixOrder) {
         obtainNewMatrix(matrixOrder, createMatrix(matrixOrder));
         if (matrixOrder != 0) {
             return true;
