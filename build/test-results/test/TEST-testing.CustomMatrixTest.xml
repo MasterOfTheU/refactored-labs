@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testing.CustomMatrixTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-10-06T13:41:24" hostname="brain" time="0.011">
+  <properties/>
+  <testcase name="obtainNewMatrix" classname="testing.CustomMatrixTest" time="0.007"/>
+  <testcase name="checkZeroMatrix" classname="testing.CustomMatrixTest" time="0.0"/>
+  <testcase name="printObtainedMatrix" classname="testing.CustomMatrixTest" time="0.002"/>
+  <testcase name="createMatrix" classname="testing.CustomMatrixTest" time="0.001"/>
+  <testcase name="printZeroOrderMatrix" classname="testing.CustomMatrixTest" time="0.0"/>
+  <system-out><![CDATA[The start square matrix is: 
+-1097697562 -393507384 -1345310685 1170833112 -1305652892 
+-834828219 510266299 -1775635252 1877797434 -584013428 
+-119873494 50025431 323959421 -891542028 -26728635 
+1784082948 1228994363 1694902899 -1500368744 -1584897642 
+1784795086 1581375076 16841186 -1169304976 1327349109 
+The obtained square matrix is: 
+-1097697562  1  0  1  0  
+1  510266299  0  1  0  
+0  0  323959421  0  0  
+1  1  1  -1500368744  0  
+1  1  1  1  1327349109  
+The start square matrix is: 
+The start square matrix is: 
+1339232389 -1727251098 -1629047112 -629698533 736784450 
+-2108078398 1659855568 -1821221608 178798258 -1603526917 
+-1477880857 845254720 -457188304 1263881206 -318763891 
+103719256 -1212871993 58200579 -964683790 -1172630485 
+-1920585960 897903845 1320456035 -139007554 1346321280 
+The obtained square matrix is: 
+1339232389  0  0  0  0  
+0  1659855568  0  0  0  
+0  0  -457188304  1  1  
+1  0  1  -964683790  0  
+0  1  1  1  1346321280  
+The start square matrix is: 
+899344965 1071204335 899718522 671369023 -2129464762 
+-446004719 -1555690227 -1830778299 -1050344340 1778998244 
+-510798431 971281415 1640043065 633610586 163878511 
+-1412269303 1407989526 746633563 -1950341363 809534286 
+1184835464 -401950999 1853045691 1099533857 -1778393182 
+The start square matrix is: 
+The obtained square matrix is: 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
