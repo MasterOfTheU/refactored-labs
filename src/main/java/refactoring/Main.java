@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
         System.out.println("ʟᴀʙ 1");
-        System.out.println(Greeter.sayHello());
+        sayHello();
 
         System.out.println("ʟᴀʙ 2 ᴛᴀsᴋ 1");
         workWithArray();
@@ -25,6 +25,13 @@ public class Main {
         System.out.println("ʟᴀʙ 3");
         runSort();
     }
+
+    //region sayHello
+    private static void sayHello(){
+        Greeter greeter = new Greeter();
+        System.out.println(greeter.sayHello());
+    }
+    //endregion
 
     //region obtainNewMatrix
     private static void obtainNewMatrix() {
