@@ -4,19 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import refactoring.MatrixSum;
 
-import java.util.Random;
-
 public class MatrixSumTest {
-
-    private static int[][] fillMatrix(int[][] matrix) {
-        Random rand = new Random();
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix.length; j++) {
-                matrix[i][j] = rand.nextInt(50);
-            }
-        }
-        return matrix;
-    }
 
     @Test
     public void createUserMatrix() {

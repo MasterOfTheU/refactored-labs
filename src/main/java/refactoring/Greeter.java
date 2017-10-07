@@ -2,7 +2,7 @@ package refactoring;
 
 public class Greeter {
 
-    String message;
+    public String message;
 
     public Greeter() {
         message = "Hello, world!";

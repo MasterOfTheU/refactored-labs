@@ -95,7 +95,8 @@ public class UserArray {
 
     //region findSumInInterval
     public static boolean findSumInInterval(ArrayList<Integer> array) {
-        int sum = 0, topBound = 9;
+        int sum = 0;
+        int topBound = 9;
         try {
             for (int i = 0; i < topBound; i++) {
                 sum += array.get(i);

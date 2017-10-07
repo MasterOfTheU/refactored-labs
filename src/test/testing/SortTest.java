@@ -28,7 +28,7 @@ public class SortTest {
         }
     }
 
-    int[] fillArray(){
+    private int[] fillArray(){
         arrayForCalculations = Arrays.copyOf(originalArray, 150);
         return arrayForCalculations;
     }

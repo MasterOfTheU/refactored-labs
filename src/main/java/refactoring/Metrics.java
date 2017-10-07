@@ -5,7 +5,7 @@ public class Metrics {
      * Prints the name of recently executed method.
      * @param methodName - Gets the name of the executed sorting algorithm from the class name.
      */
-    static void printMethodName(String methodName) {
+    public static void printMethodName(String methodName) {
         System.out.printf("%s has executed.\n", methodName);
     }
 

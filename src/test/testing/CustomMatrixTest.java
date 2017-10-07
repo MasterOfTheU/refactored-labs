@@ -4,8 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 import refactoring.*;
 
-import java.util.Random;
-
 public class CustomMatrixTest {
 
     @Test

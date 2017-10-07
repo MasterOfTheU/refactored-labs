@@ -1,6 +1,5 @@
 package testing;
 
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -69,20 +68,20 @@ public class UserArrayTest {
         List<Integer> testList = new ArrayList<Integer>(Arrays.asList(2, 4));
         int actualResult = UserArray.geometricMean((ArrayList<Integer>) testList);
         int expected = 2;
-        Assert.assertEquals(expected, actualResult);
+        assertEquals(expected, actualResult);
     }
 
     @Test
     public void geometricMeanFailed() {
         ArrayList<Integer> testList = new ArrayList<Integer>();
-        Assert.assertFalse(testList.size() > 0);
+        assertFalse(testList.size() > 0);
     }
 
     @Test
     public void pairedListNotNull() {
         List<Integer> testList = new ArrayList<Integer>(5);
         List<Integer> result = fillPairedArray(testList);
-        Assert.assertNotNull(result);
+        assertNotNull(result);
     }
 
     @Test
@@ -90,7 +89,7 @@ public class UserArrayTest {
         List<Integer> testList = new ArrayList<Integer>(Arrays.asList(2, 0, -566, 11));
         int actualResult = UserArray.largestByModule((ArrayList<Integer>) testList);
         int expected = 566;
-        Assert.assertEquals(expected, actualResult);
+        assertEquals(expected, actualResult);
     }
 
     @Test
@@ -100,7 +99,7 @@ public class UserArrayTest {
         int expected = -9999;
         actualResult = UserArray.largestByModule((ArrayList<Integer>) testList);
         actualResult = -(actualResult);
-        Assert.assertEquals(expected, actualResult);
+        assertEquals(expected, actualResult);
     }
 
     @Test
@@ -108,7 +107,7 @@ public class UserArrayTest {
         List<Integer> testList = new ArrayList<Integer>(Arrays.asList(1, 10, 4, 5));
         int actualResult = UserArray.arithmeticMean((ArrayList<Integer>) testList);
         int expected = 2;
-        Assert.assertEquals(expected, actualResult);
+        assertEquals(expected, actualResult);
     }
 
     @Test
@@ -116,20 +115,20 @@ public class UserArrayTest {
         List<Integer> testList = new ArrayList<Integer>(Arrays.asList(2, 0, -566, 11));
         int actualResult = UserArray.findModuleMinimized((ArrayList<Integer>) testList);
         int expected = 0;
-        Assert.assertEquals(expected, actualResult);
+        assertEquals(expected, actualResult);
     }
 
     @Test
     public void findSumInInterval() {
         List<Integer> testList = new ArrayList<Integer>(Arrays.asList(2, 0, -566, 11));
         boolean result = UserArray.findSumInInterval((ArrayList<Integer>) testList);
-        Assert.assertTrue(result);
+        assertTrue(result);
     }
 
     @Test
     public void maximumPairedItem() {
         List<Integer> testList = new ArrayList<Integer>(Arrays.asList(1, 1, 0, 4, 22, 3));
         boolean result = UserArray.maximumPairedItem((ArrayList<Integer>) testList);
-        Assert.assertTrue(result);
+        assertTrue(result);
     }
 }

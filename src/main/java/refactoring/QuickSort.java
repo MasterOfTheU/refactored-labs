@@ -12,7 +12,8 @@ public class QuickSort implements Sort {
         int index = rand.nextInt(array.length);
         int pivot = array[index];
 
-        int bottomBound = 0, topBound = array.length - 1;
+        int bottomBound = 0;
+        int topBound = array.length - 1;
         /** Checking lists from both side of pivot element */
         while (bottomBound <= topBound) {
             while (array[bottomBound] < pivot) {
