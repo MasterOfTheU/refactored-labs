@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testing.MetricsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-10-06T14:05:02" hostname="brain" time="0.086">
+<testsuite name="testing.MetricsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-10-07T12:07:22" hostname="brain" time="0.105">
   <properties/>
-  <testcase name="gatherPerformance" classname="testing.MetricsTest" time="0.086"/>
-  <system-out><![CDATA[Used memory in bytes: 1904256; in megabytes: 1.816040 
+  <testcase name="gatherPerformance" classname="testing.MetricsTest" time="0.105"/>
+  <system-out><![CDATA[Used memory in bytes: 2910184; in megabytes: 2.775368 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

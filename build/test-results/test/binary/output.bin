@@ -1,86 +1,86 @@
 The start square matrix is: 
-71749919559 1346507292 -234297824 763014896 226835253 
-867497155 1924679762 -1365089905 542059610 -1010745655 
-9-449081553 -23996792 902878111 -1043686564 -1017331690 
-;-1454067694 -1192783850 954418360 -1340734513 -324599662 
-;-1949730741 -295426833 -1729648124 -140576008 -336638752 
+9-1262475771 1776236372 1671065260 348078105 1691891946 
+71433028970 25917489 -143978389 2146276725 -510461778 
+9-1065229995 -64257853 -233318249 -2016894216 162660216 
+8-172621775 2012430257 1378216192 1571966490 368253291 
+9-397215671 32003581 -113563728 -1893819116 -1550043398 
 !The obtained square matrix is: 
-1749919559  0  0  0  0  
-0  1924679762  0  0  0  
-0  0  902878111  0  0  
-0  0  1  -1340734513  1  
-0  1  0  1  -336638752  
+-1262475771  1  1  1  1  
+1  25917489  0  1  0  
+0  0  -233318249  0  1  
+1  1  1  1571966490  0  
+0  0  0  0  -1550043398  
 The start square matrix is: 
 The start square matrix is: 
-:1421871701 -112624503 -2027448457 -1123943820 238858391 
-:1256840741 988789817 -1549893356 -996138220 -1546606076 
-7-1243697229 -147093658 1187975884 3467452 1830717392 
-;-1460731899 -1270410106 255500860 1630310321 -1269500309 
-7-936194555 253154539 912513541 -814263112 1131889273 
+6613510939 -1457231878 1994901073 747388421 82160622 
+9-1258167960 -267756089 252614380 1440615190 1315445159 
+:-1948831253 1183270686 -2083476499 876204041 -418371913 
+:-1321757163 -367174000 1205570586 -399493549 -345637472 
+7-914111038 -930946133 731004822 320778268 1772040975 
 !The obtained square matrix is: 
-1421871701  0  0  0  0  
-0  988789817  0  0  0  
-0  0  1187975884  0  1  
-0  0  0  1630310321  0  
-0  0  0  0  1131889273  
+613510939  0  1  1  0  
+0  -267756089  1  1  1  
+0  1  -2083476499  1  1  
+1  1  1  -399493549  1  
+0  0  1  1  1772040975  
 The start square matrix is: 
-6-2144871848 -82885539 230066186 -96785496 758867650 
-9916990122 826053146 -1010905734 -573707808 -1693611151 
-:-1282395789 -619474376 -175464498 930656301 -1855745482 
-9-672635922 626551202 1772587031 1839823692 -1097269910 
-;-1396607208 1956201727 1597655724 1354918706 -1913035151 
+7-1215703572 655080885 1651742465 306741584 -53634524 
+<-760272426 -1641707098 -485864404 -1527609121 -1668850974 
+<-509327108 -1910577731 -1546758682 1284374271 -1325933477 
+91035052761 -1854085758 1991530418 688869743 -904711648 
+8336791926 -625941048 -1057897397 -750003069 512465199 
 The start square matrix is: 
 !The obtained square matrix is: 
 
 The start matrix is: 
 
-1 4 1 2 1 
+4 4 2 3 2 
 
-4 4 4 4 0 
+4 4 4 4 3 
 
-1 3 1 3 0 
+4 1 4 0 4 
 
-0 2 3 0 2 
+4 0 4 4 1 
 
-4 3 3 0 3 
+1 1 0 0 2 
 $The sum on the main diagonal is: 0
 #The sum above main diagonal is: 0
 #The sum below main diagonal is: 0
 $The sum on the main diagonal is: 0
 #The sum above main diagonal is: 0
 #The sum below main diagonal is: 0
-7Used memory in bytes: 1904256; in megabytes: 1.816040 
+7Used memory in bytes: 2910184; in megabytes: 2.775368 
 OddEvenSort has executed.
-7Used memory in bytes: 1920376; in megabytes: 1.831413 
-.The runtime of bubble sort algorithm is 77 ms
+7Used memory in bytes: 1919576; in megabytes: 1.830650 
+/The runtime of bubble sort algorithm is 223 ms
 
 CombSort has executed.
-7Used memory in bytes: 1922672; in megabytes: 1.833603 
-,The runtime of comb sort algorithm is 44 ms
+7Used memory in bytes: 1922808; in megabytes: 1.833733 
+-The runtime of comb sort algorithm is 103 ms
 
 JavaUtilSort has executed.
-7Used memory in bytes: 1923032; in megabytes: 1.833946 
-2The runtime of dual-pivot sort algorithm is 15 ms
+7Used memory in bytes: 1923168; in megabytes: 1.834076 
+2The runtime of dual-pivot sort algorithm is 40 ms
 
 CombSort has executed.
-7Used memory in bytes: 1923408; in megabytes: 1.834305 
-,The runtime of comb sort algorithm is 21 ms
+7Used memory in bytes: 1925144; in megabytes: 1.835960 
+-The runtime of comb sort algorithm is 218 ms
 
 SelectionSort has executed.
-7Used memory in bytes: 1925064; in megabytes: 1.835884 
-1The runtime of selection sort algorithm is 16 ms
+7Used memory in bytes: 1925008; in megabytes: 1.835831 
+1The runtime of selection sort algorithm is 69 ms
 
 QuickSort has executed.
-7Used memory in bytes: 1925728; in megabytes: 1.836517 
+7Used memory in bytes: 1926048; in megabytes: 1.836823 
 -The runtime of quick sort algorithm is 16 ms
 
 BubbleSort has executed.
-7Used memory in bytes: 1926512; in megabytes: 1.837265 
-.The runtime of bubble sort algorithm is 18 ms
+7Used memory in bytes: 1927128; in megabytes: 1.837852 
+.The runtime of bubble sort algorithm is 26 ms
 
 CycleSort has executed.
-7Used memory in bytes: 2934040; in megabytes: 2.798119 
--The runtime of cycle sort algorithm is 31 ms
+7Used memory in bytes: 1927832; in megabytes: 1.838524 
+-The runtime of cycle sort algorithm is 26 ms
 
 "uCannot proceed the calculation of sum in the interval of [0;10]. The array does not contain this amount of elements.
 %THE MAXIMUM PAIRED ITEM IS: 22
